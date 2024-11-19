@@ -7,5 +7,5 @@ def index(request):
      return HttpResponse("INDEX")
 
 def update(request):
-     os.system("git pull origin main")
+     os.system("git pull origin master")
      return HttpResponse("UPDATE")
